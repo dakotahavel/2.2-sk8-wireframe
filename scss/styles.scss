@@ -1,89 +1,80 @@
+
+/*
+ * Bootstrap vars
+ */
+$grid-gutter-width: 10px;
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*
+ * Color Pallet
+ */
+// $gray: #BBB;
+// $light-gray: #DDD;
+// $white: #FFF;
+
+/*
+ * General layout
+ */
 img{
   max-width: 100%;
 }
 
-div{
-  padding: 0;
-  margin: 0;
+.wrapper{
+  background-image: url('../images/bg.jpg');
+
 }
 
-.container{
-  padding: 0;
-}
-
-.middle{
-  padding: 0;
-  margin: 0;
-}
-
-.row{
-  display: block;
-}
-
-.social-row{
-  background-color: red;
-  padding: 0;
-  margin: 0;
-
-  ul{
-    height: 100px;
-  }
-
-  li{
-    display: inline-block;
-    float: right;
-    max-width: 10%;
-  }
-
-  img{
-  height: 100px;
-  width: 100px;
-  }
-
-  .social-btns{
-    padding: 0;
-    margin: 0;
-  }
-}
-
-
-.top-nav-row{
+.social-media{
   background-color: pink;
-  padding: 0;
-  font-size: 0;
 
-  .nav-btns{
-    padding: 0;
-    margin: 0;
+  .btn{
+    float:right;
   }
+}
 
-  li{
-    display: inline-block;
-    width: 25%;
-    color: black;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: blue;
-    margin: 0;
+.top-nav{
+  text-transform: uppercase;
+
+  .btn{
+    background-color: red;
   }
 
 }
 
-.read-more-row{
+
+.read-more{
+  // background-color: green;
 
   .scroll-button{
-    display: block;
+    // background-color: red;
   }
 
-  .story-row{
-    display: inline-block;
+  .read-more-story{
+    // background-color: grey;
   }
+}
 
-  .story{
-    // display: inline-block;
-    background-color: green;
+.skateboarders{
+  // background-color: red;
+
+  .profile{
+    // background-color: yellow;
   }
-
 
 }
+
+.board-design{
+  // background-color: white;
+
+}
+
+.contact-us{
+  // background-color: gray;
+}
+
+
+
+
+
+// ................................

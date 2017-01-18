@@ -2,75 +2,161 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/styles.css">
     <title>Sk8</title>
   </head>
   <body>
-
+  <div class="wrapper">
     <div class="container">
-      <div class="col-md-3"></div>
 
-      <div class="middle col-md-6">
-        <!-- Begin Main Column -->
         <!-- Social Media -->
-        <div class="row social-row">
-          <ul class="social-btns">
-            <li><a href="#"><img src='http://www.placecage.com/g/2020/180'></a></li>
-            <li><a href="#"><img src='http://www.placecage.com/g/250/170'></a></li>
-            <li><a href="#"><img src='http://www.placecage.com/g/400/150'></a></li>
-            <li><a href="#"><img src='http://www.placecage.com/g/200/1030'></a></li>
-          </ul>
+        <div class="row social-media">
+            <button type="button" class="btn btn-link">YouTube</button>
+            <button type="button" class="btn btn-link">Twitter</button>
+            <button type="button" class="btn btn-link">RSS</button>
+            <button type="button" class="btn btn-link"><i class="fa fa-facebook" aria-hidden="true"></i></button>
         </div>
         <!-- Top Nav -->
-        <div class="row top-nav-row">
-          <ul class="nav-btns">
-            <li><a class="news" href="#"><div>- Sk8 News -</div></a></li>
-            <li><a class="skateboarders" href="#"><div>- Skaters -</div></a></li>
-            <li><a class="board-design" href="#"><div>- Board Design -</div></a></li>
-            <li><a class="contact-us" href="#"><div>- Contact Us -</div></a></li>
-          </ul>
+        <div class="row top-nav">
+          <div class="col-md-12">
+            <div class="row top-nav-btns">
+
+              <div class="col-md-3">
+                <button type="button" class="btn btn-link">Sk8 News</button>
+              </div>
+              <div class="col-md-3">
+                <button type="button" class="btn btn-link">Skateboarders</button>
+              </div>
+              <div class="col-md-3">
+                <button type="button" class="btn btn-link">Board Design</button>
+              </div>
+              <div class="col-md-3">
+                <button type="button" class="btn btn-link">Contact Us</button>
+              </div>
+
+            </div>
+          </div>
         </div>
         <!-- Banner Image -->
-        <div class="row banner-row">
-          <div class="banner-pic">
+        <div class="row logo">
             <img src='images/top-image.png'>
-          </div>
         </div>
         <!-- More Stories  -->
-        <div class="row read-more-row">
-
-          <div class="scroll-button">
-            ...............................................................................
-          </div>
-
-          <div class="read-more-links col-md-12">
-
-            <div class="row story-row">
-              <div class="story story1">
-                Story 1
-              </div>
-            </div>
-
-            <div class="row story-row">
-              <div class="story story2">
-                Story 2
-              </div>
-            </div>
-
-            <div class="row story-row">
-              <div class="story story3">
-                Story 3
-              </div>
+        <!-- Scroll Button -->
+        <!-- Story Columns -->
+        <div class="row read-more">
+          <div class="col-md-12">
+            <div class="scroll-button">
+              <button type="button" class="btn btn-link">Scroll</button>
             </div>
           </div>
 
+          <div class="col-md-4">
+            <div class="read-more-story">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque est nostrum reiciendis ab nobis, recusandae animi illo, ex rem labore odio aliquam ullam architecto vitae, quaerat fuga incidunt voluptatem.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="read-more-story">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque est nostrum reiciendis ab nobis, recusandae animi illo, ex rem labore odio aliquam ullam architecto vitae, quaerat fuga incidunt voluptatem.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="read-more-story">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque est nostrum reiciendis ab nobis, recusandae animi illo, ex rem labore odio aliquam ullam architecto vitae, quaerat fuga incidunt voluptatem.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Skateboarders -->
+        <div class="row skateboarders">
+          <div class="col-md-8">
+            <div class="row skateboarders-left">
+              <div class="col-md-6">
+                <div class="profile half">
+                  <img src="images/sk8er-4.png">
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="profile half">
+                  <img src="images/sk8er-3.png">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="profile half">
+                  <img src="images/sk8er-1.png">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4">
+            <div class="profile">
+              <img src="images/sk8er-2.png">
+            </div>
+          </div>
+        </div>
+        <!-- Board Designs -->
+        <div class="row board-design">
+          <div class="col-md-12">
+            <div class="row board-design-pics">
+              <img src="images/sk8-1.png" alt="">
+              <img src="images/sk8-2.png" alt="">
+              <img src="images/sk8-3.png" alt="">
+              <img src="images/sk8-4.png" alt="">
+              <img src="images/sk8-5.png" alt="">
+              <img src="images/sk8-6.png" alt="">
+              <img src="images/sk8-7.png" alt="">
+              <img src="images/sk8-1.png" alt="">
+              <img src="images/sk8-9.png" alt="">
+              <img src="images/sk8-10.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- Contact Us and Information -->
+
+        <div class="row contact-us">
+          <div class="col-md-6">
+            <div class="row information">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit optio fugiat distinctio temporibus autem, eum possimus, quos pariatur dolor tempora maiores est tenetur atque ratione laboriosam quidem voluptatibus repellat dolorum!</p>
+              <p>Eveniet, quo veritatis. Aut perferendis beatae a eveniet, sit, labore non qui quas error sequi debitis architecto sed. Vero dignissimos consequatur provident vitae repellat exercitationem atque aspernatur id, tempore libero?</p>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row contact-form">
+              <form action="#">
+                <div class="form-group">
+                  <label for="InputName">
+                    <input type="text" class="form-control" placeholder="NAME">
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label for="InputEmail">
+                    <input type="text" class="form-control" placeholder="EMAIL">
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label for="InputMessage">
+                    <input type="text" class="form-control" placeholder="YOUR MESSAGE">
+                  </label>
+                </div>
+
+              </form>
+            </div>
+
+          </div>
         </div>
 
-        <div class="row skateboarders-row">
 
 
-        </div>
+
+
+
+
 
 
 
@@ -88,9 +174,8 @@
 
       </div>
 
-      <div class="col-md-3"></div>
 
     </div>
-
+  </div>
   </body>
 </html>

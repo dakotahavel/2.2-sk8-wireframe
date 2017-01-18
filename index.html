@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
     <title>Sk8</title>
   </head>
   <body>
@@ -12,27 +15,30 @@
 
         <!-- Social Media -->
         <div class="row social-media">
-            <button type="button" class="btn btn-link">YouTube</button>
-            <button type="button" class="btn btn-link">Twitter</button>
-            <button type="button" class="btn btn-link">RSS</button>
-            <button type="button" class="btn btn-link"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-danger"><i class="fa fa-youtube" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-warning"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-info"><i class="fa fa-rss" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-primary"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+            <div><i class="fa fa-lg fa-ellipsis-v" aria-hidden="true"></i></div>
+            <ul><li>Subscribe</li></ul>
         </div>
         <!-- Top Nav -->
+        <!-- List with background red -->
         <div class="row top-nav">
           <div class="col-md-12">
             <div class="row top-nav-btns">
 
-              <div class="col-md-3">
-                <button type="button" class="btn btn-link">Sk8 News</button>
+              <div class="col-md-3 top-nav-btn">
+                <a href="#">< - Sk8 News - </a>
               </div>
-              <div class="col-md-3">
-                <button type="button" class="btn btn-link">Skateboarders</button>
+              <div class="col-md-3 top-nav-btn">
+                <a href="#"> - Skateboarders - </a>
               </div>
-              <div class="col-md-3">
-                <button type="button" class="btn btn-link">Board Design</button>
+              <div class="col-md-3 top-nav-btn">
+                <a href="#"> - Board Design - </a>
               </div>
-              <div class="col-md-3">
-                <button type="button" class="btn btn-link">Contact Us</button>
+              <div class="col-md-3 top-nav-btn">
+                <a href="#"> - Contact Us - </a>
               </div>
 
             </div>
@@ -40,7 +46,7 @@
         </div>
         <!-- Banner Image -->
         <div class="row logo">
-            <img src='images/top-image.png'>
+            <img src='images/peralta-logo.png'>
         </div>
         <!-- More Stories  -->
         <!-- Scroll Button -->
@@ -48,45 +54,60 @@
         <div class="row read-more">
           <div class="col-md-12">
             <div class="scroll-button">
-              <button type="button" class="btn btn-link">Scroll</button>
+              <button type="button" class="btn btn-link">o</button>
+              <button type="button" class="btn btn-link">o</button>
+              <button type="button" class="btn btn-link">o</button>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="read-more-story">
+              <h3>Title</h3>
+              <h6>date</h6>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque est nostrum reiciendis ab nobis, recusandae animi illo, ex rem labore odio aliquam ullam architecto vitae, quaerat fuga incidunt voluptatem.</p>
+              <a href="#">[ Read More ]</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="read-more-story">
+              <h3>Title</h3>
+              <h6>date</h6>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque est nostrum reiciendis ab nobis, recusandae animi illo, ex rem labore odio aliquam ullam architecto vitae, quaerat fuga incidunt voluptatem.</p>
+              <a href="#">[ Read More ]</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="read-more-story">
+              <h3>Title</h3>
+              <h6>date</h6>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque est nostrum reiciendis ab nobis, recusandae animi illo, ex rem labore odio aliquam ullam architecto vitae, quaerat fuga incidunt voluptatem.</p>
+              <a href="#">[ Read More ]</a>
             </div>
           </div>
+
         </div>
         <!-- Skateboarders -->
         <div class="row skateboarders">
           <div class="col-md-8">
             <div class="row skateboarders-left">
               <div class="col-md-6">
-                <div class="profile half">
-                  <img src="images/sk8er-4.png">
+                <div class="profile half lance">
+                  <h2>Lance Mountain</h2>
+                  <!-- <img src="images/sk8er-4.png"> -->
                 </div>
               </div>
 
               <div class="col-md-6">
-                <div class="profile half">
-                  <img src="images/sk8er-3.png">
+                <div class="profile half rodney">
+                  <h2>Rodney Mullen</h2>
+                  <!-- <img src="images/sk8er-3.png"> -->
                 </div>
               </div>
 
               <div class="col-md-12">
-                <div class="profile half">
-                  <img src="images/sk8er-1.png">
+                <div class="profile half steve">
+                  <h2>Steve Caballero</h2>
+                  <!-- <img src="images/sk8er-1.png"> -->
                 </div>
               </div>
             </div>
@@ -94,11 +115,13 @@
           </div>
 
           <div class="col-md-4">
-            <div class="profile">
-              <img src="images/sk8er-2.png">
+            <div class="profile tommy">
+              <h2>Tommy Guerrero</h2>
+              <!-- <img src="images/sk8er-2.png"> -->
             </div>
           </div>
         </div>
+
         <!-- Board Designs -->
         <div class="row board-design">
           <div class="col-md-12">

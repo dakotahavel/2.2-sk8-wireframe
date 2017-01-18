@@ -5,30 +5,41 @@ div {
   padding: 0;
   margin: 0; }
 
-.subscribe {
-  background-color: red;
+.container {
   padding: 0; }
-  .subscribe ul {
+
+.middle {
+  padding: 0;
+  margin: 0; }
+
+.row {
+  display: block; }
+
+.social-row {
+  background-color: red;
+  padding: 0;
+  margin: 0; }
+  .social-row ul {
     height: 100px; }
-  .subscribe li {
+  .social-row li {
     display: inline-block;
     float: right;
     max-width: 10%; }
-  .subscribe img {
+  .social-row img {
     height: 100px;
     width: 100px; }
-  .subscribe .sub-btns {
+  .social-row .social-btns {
     padding: 0;
     margin: 0; }
 
-.top-nav {
+.top-nav-row {
   background-color: pink;
   padding: 0;
   font-size: 0; }
-  .top-nav .nav-btns {
+  .top-nav-row .nav-btns {
     padding: 0;
     margin: 0; }
-  .top-nav li {
+  .top-nav-row li {
     display: inline-block;
     width: 25%;
     color: black;
@@ -37,5 +48,12 @@ div {
     text-align: center;
     background-color: blue;
     margin: 0; }
+
+.read-more-row .scroll-button {
+  display: block; }
+.read-more-row .story-row {
+  display: inline-block; }
+.read-more-row .story {
+  background-color: green; }
 
 /*# sourceMappingURL=styles.css.map */

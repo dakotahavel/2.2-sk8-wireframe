@@ -5825,12 +5825,13 @@ img {
   color: white;
   text-transform: uppercase; }
   .social-media .btn {
-    float: right; }
+    float: right;
+    margin-left: 1%; }
   .social-media .fa-ellipsis-v {
     float: right;
     padding-top: 1%;
     margin-right: 1%; }
-  .social-media ul {
+  .social-media span {
     float: right;
     padding-top: .5%;
     margin-right: 5%; }
@@ -5849,7 +5850,8 @@ img {
   .logo img {
     position: absolute;
     top: 15%;
-    left: 5%; }
+    left: 5%;
+    transform: scale(1.1); }
 
 .read-more .btn {
   display: inline-block;
@@ -5893,7 +5895,8 @@ img {
 
 .steve {
   background-image: url("../images/sk8er-1.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: 0px 60%; }
 
 .tommy {
   background-image: url("../images/sk8er-2.png");
@@ -5902,5 +5905,7 @@ img {
 .board-design {
   background-color: white;
   text-align: center; }
+  .board-design img {
+    margin: 2%; }
 
 /*# sourceMappingURL=styles.css.map */

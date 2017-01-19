@@ -31,6 +31,7 @@ img{
 
   .btn{
     float: right;
+    margin-left: 1%;
   }
 
   .fa-ellipsis-v{
@@ -39,7 +40,7 @@ img{
     margin-right: 1%;
   }
 
-  ul{
+  span{
     float: right;
     padding-top: .5%;
     margin-right: 5%;
@@ -72,6 +73,8 @@ img{
     position: absolute;
     top: 15%;
     left: 5%;
+    transform: scale(1.1);
+
   }
 
 
@@ -154,7 +157,7 @@ img{
 .steve{
   background-image: url("../images/sk8er-1.png");
   background-size: cover;
-  // background-position: 0px 60%;
+  background-position: 0px 60%;
 }
 
 .tommy{
@@ -165,6 +168,10 @@ img{
 .board-design{
   background-color: white;
   text-align: center;
+
+  img{
+    margin: 2%;
+  }
 }
 
 .contact-us{

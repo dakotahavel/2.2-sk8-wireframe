@@ -5864,7 +5864,7 @@ img {
   box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
   overflow: hidden; }
   .logo .overlay {
-    opacity: 0.2; }
+    opacity: 0.3; }
   .logo .logo-img {
     position: absolute;
     top: 15%;
@@ -5908,22 +5908,18 @@ img {
     left: -300px;
     top: 50px; }
   .skateboarders h2 {
-    font-size: 4em;
+    font-size: 3em;
+    width: 50%;
     text-align: center;
     vertical-align: middle;
-    position: absolute;
-    color: white;
-    top: 30%;
-    left: 12%; }
+    color: white; }
   .skateboarders .profile {
     margin-top: 1%;
     box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
     margin-top: 2%;
-    height: 515px;
+    height: 250px;
     text-transform: uppercase;
     border: 5px solid white; }
-  .skateboarders .half {
-    height: 250px; }
   .skateboarders a {
     color: white; }
 
@@ -5950,6 +5946,10 @@ img {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat; }
+
+@media (min-width: 989px) {
+  #tommy-pic {
+    height: 515px; } }
 
 .board-designs {
   margin-top: 2%;

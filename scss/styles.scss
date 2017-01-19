@@ -91,7 +91,7 @@ img{
   overflow: hidden;
 
   .overlay{
-    opacity: 0.2;
+    opacity: 0.3;
   }
   // ::after{
   //   content: '';
@@ -147,6 +147,7 @@ img{
     text-align: center;
     color: transparent;
     margin-top: 3%;
+
   }
 
   h3, h6, p{
@@ -192,35 +193,39 @@ img{
 
 
   h2{
-    font-size: 4em;
+    font-size: 3em;
+    width: 50%;
     text-align: center;
     vertical-align: middle;
-    position: absolute;
+    // position: absolute;
     color: white;
-    top: 30%;
-    left: 12%;
+    // top: 30%;
+    // left: 12%;
   }
 
   .profile{
     @include box-format();
     margin-top: 2%;
-    height: 515px;
+    height: 250px;
     text-transform: uppercase;
     border: 5px solid white;
+
   }
 
-  .half{
-    height: 250px;
-  }
+  // @media (max-width: 989px){
+  // font-size: 2em;
+  // }
+
+
+
+  // .half{
+  //   height: 250px;
+  // }
 
   a{
     color: white;
 
   }
-
-  // img{
-  //   object-fit: contain;
-  // }
 
 }
 
@@ -255,6 +260,14 @@ img{
   background-position: right;
   background-repeat: no-repeat;
 
+
+}
+
+#tommy-pic{
+  @media (min-width: 989px){
+    height: 515px;
+
+  }
 
 }
 

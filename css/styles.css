@@ -5810,17 +5810,14 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*
- * Color Pallet
- */
-/*
  * General layout
  */
 img {
   max-width: 100%; }
 
 .wrapper {
-  background-image: url("../images/bg.jpg");
-  background-color: black; }
+  background-image: url("../images/bg-darkened.jpg");
+  background-size: cover; }
 
 .social-media {
   color: white;
@@ -5830,34 +5827,45 @@ img {
     float: right;
     margin-left: 1%;
     margin-top: 1%;
-    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+    color: rgba(200, 200, 200, 0.5); }
   .social-media .fa-ellipsis-v {
     float: right;
-    padding-top: 1%;
+    padding-top: 2.5%;
     margin-right: 1%; }
   .social-media span {
     float: right;
-    padding-top: .5%;
+    padding-top: 2.25%;
     margin-right: 5%; }
 
 .top-nav {
   text-transform: uppercase;
   margin-top: 1%; }
+  .top-nav .top-nav-btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%; }
   .top-nav a {
-    background-color: red;
+    display: inline-block;
+    background-color: #D22127;
     color: white;
     margin-top: 1%;
-    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+    width: 100%; }
 
 .logo {
   position: relative;
   height: 335px;
   background-image: url("../images/top-image.png");
   background-position: 5% 30%;
+  border: 10px solid white;
   box-shadow: 0px 10px 10px white;
   margin-top: 1%;
-  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
-  .logo img {
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+  overflow: hidden; }
+  .logo .overlay {
+    opacity: 0.2; }
+  .logo .logo-img {
     position: absolute;
     top: 15%;
     left: 5%;
@@ -5868,53 +5876,84 @@ img {
   background-color: white;
   margin-top: 1%;
   box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
-.read-more .scroll-button {
-  text-align: center; }
-.read-more h3, .read-more h6, .read-more p, .read-more a {
-  text-align: center; }
+.read-more .scroll-buttons {
+  text-align: center;
+  color: transparent;
+  margin-top: 3%; }
+.read-more h3, .read-more h6, .read-more p {
+  text-align: left;
+  padding: 1% 5% 1% 5%; }
+.read-more h3 {
+  padding-top: 5%; }
+.read-more h6 {
+  font-size: 1em;
+  color: #A5A5A5; }
 .read-more a {
   display: block;
-  color: red; }
+  color: red;
+  text-align: center;
+  margin-top: 10%; }
 .read-more .read-more-story {
   margin-top: 1%;
   box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
   margin-bottom: 1%;
-  background-color: white; }
+  background-color: white;
+  min-height: 350px; }
 
 .skateboarders {
-  position: relative; }
+  position: relative;
+  margin-top: 2%; }
+  .skateboarders .tag {
+    position: absolute;
+    left: -300px;
+    top: 50px; }
   .skateboarders h2 {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     vertical-align: middle;
     position: absolute;
-    top: 45%;
+    color: white;
+    top: 30%;
     left: 12%; }
   .skateboarders .profile {
-    height: 500px;
-    color: white;
-    text-transform: uppercase;
     margin-top: 1%;
-    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+    margin-top: 2%;
+    height: 515px;
+    text-transform: uppercase;
+    border: 5px solid white; }
   .skateboarders .half {
     height: 250px; }
+  .skateboarders a {
+    color: white; }
 
 .lance {
   background-image: url("../images/sk8er-4.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat; }
 
 .rodney {
   background-image: url("../images/sk8er-3.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
 
 .steve {
   background-image: url("../images/sk8er-1.png");
   background-size: cover;
-  background-position: 0px 60%; }
+  background-position: left;
+  background-repeat: no-repeat; }
 
 .tommy {
   background-image: url("../images/sk8er-2.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat; }
+
+.board-designs {
+  margin-top: 2%;
+  margin-bottom: 3%; }
 
 .board-design {
   background-color: white;
@@ -5928,6 +5967,15 @@ img {
   margin-top: 1%;
   box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
   background-color: white;
+  padding: 5%;
   margin-bottom: 5%; }
+  .contact-us .information {
+    margin-right: 4%; }
+  .contact-us label {
+    width: 100%; }
+  .contact-us .input-message {
+    min-height: 100px; }
+  .contact-us .btn {
+    float: right; }
 
 /*# sourceMappingURL=styles.css.map */

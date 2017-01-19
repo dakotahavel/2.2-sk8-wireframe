@@ -5819,14 +5819,18 @@ img {
   max-width: 100%; }
 
 .wrapper {
-  background-image: url("../images/bg.jpg"); }
+  background-image: url("../images/bg.jpg");
+  background-color: black; }
 
 .social-media {
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 1%; }
   .social-media .btn {
     float: right;
-    margin-left: 1%; }
+    margin-left: 1%;
+    margin-top: 1%;
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
   .social-media .fa-ellipsis-v {
     float: right;
     padding-top: 1%;
@@ -5837,16 +5841,22 @@ img {
     margin-right: 5%; }
 
 .top-nav {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 1%; }
   .top-nav a {
     background-color: red;
-    color: white; }
+    color: white;
+    margin-top: 1%;
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
 
 .logo {
   position: relative;
   height: 335px;
   background-image: url("../images/top-image.png");
-  background-position: 5% 30%; }
+  background-position: 5% 30%;
+  box-shadow: 0px 10px 10px white;
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
   .logo img {
     position: absolute;
     top: 15%;
@@ -5855,17 +5865,21 @@ img {
 
 .read-more .btn {
   display: inline-block;
-  background-color: white; }
+  background-color: white;
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
 .read-more .scroll-button {
   text-align: center; }
-
-.read-more {
-  background-color: blue; }
-  .read-more h3, .read-more h6, .read-more p, .read-more a {
-    text-align: center; }
-  .read-more a {
-    display: block;
-    color: red; }
+.read-more h3, .read-more h6, .read-more p, .read-more a {
+  text-align: center; }
+.read-more a {
+  display: block;
+  color: red; }
+.read-more .read-more-story {
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+  margin-bottom: 1%;
+  background-color: white; }
 
 .skateboarders {
   position: relative; }
@@ -5879,11 +5893,11 @@ img {
   .skateboarders .profile {
     height: 500px;
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 1%;
+    box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
   .skateboarders .half {
     height: 250px; }
-  .skateboarders img {
-    object-fit: contain; }
 
 .lance {
   background-image: url("../images/sk8er-4.png");
@@ -5904,8 +5918,16 @@ img {
 
 .board-design {
   background-color: white;
-  text-align: center; }
+  text-align: center;
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5); }
   .board-design img {
     margin: 2%; }
+
+.contact-us {
+  margin-top: 1%;
+  box-shadow: 0 5px 0 rgba(200, 200, 200, 0.5);
+  background-color: white;
+  margin-bottom: 5%; }
 
 /*# sourceMappingURL=styles.css.map */

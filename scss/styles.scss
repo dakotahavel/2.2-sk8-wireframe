@@ -6,6 +6,14 @@ $grid-gutter-width: 10px;
 
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
+$shade: rgba(200,200,200,0.5);
+
+@mixin box-format(){
+  // border: 5px solid white;
+  margin-top: 1%;
+  box-shadow: 0 5px 0 $shade;
+}
+
 /*
  * Color Pallet
  */
@@ -16,22 +24,27 @@ $grid-gutter-width: 10px;
 /*
  * General layout
  */
+
 img{
   max-width: 100%;
 }
 
 .wrapper{
   background-image: url('../images/bg.jpg');
+  background-color: darken(black, 50);
 
 }
 
 .social-media{
   color: white;
   text-transform: uppercase;
+  margin-top: 1%;
 
   .btn{
     float: right;
     margin-left: 1%;
+    @include box-format();
+
   }
 
   .fa-ellipsis-v{
@@ -51,10 +64,13 @@ img{
 
 .top-nav{
   text-transform: uppercase;
+  margin-top: 1%;
 
   a{
     background-color: red;
     color: white;
+    @include box-format();
+
     // width: 100%;
   }
 
@@ -67,6 +83,10 @@ img{
   background-image: url('../images/top-image.png');
   background-position: 5% 30%;
   // border: 10px solid white;
+  box-shadow: 0px 10px 10px white;
+  @include box-format();
+
+
 
   img{
     // transform: scale(1.1);
@@ -86,19 +106,15 @@ img{
   .btn{
     display: inline-block;
     background-color: white;
+    @include box-format();
+
   }
 
   .scroll-button{
     // background-color: red;
     text-align: center;
+
   }
-
-
-}
-
-.read-more{
-  background-color: blue;
-
 
   h3, h6, p, a{
     text-align: center;
@@ -107,6 +123,13 @@ img{
   a{
     display: block;
     color: red;
+  }
+
+  .read-more-story{
+    @include box-format();
+    margin-bottom: 1%;
+    background-color: white;
+
   }
 
 }
@@ -130,6 +153,8 @@ img{
     height: 500px;
     color: white;
     text-transform: uppercase;
+    @include box-format();
+
     // border: 5px solid white;
   }
 
@@ -138,9 +163,9 @@ img{
   }
 
 
-  img{
-    object-fit: contain;
-  }
+  // img{
+  //   object-fit: contain;
+  // }
 
 }
 
@@ -168,6 +193,8 @@ img{
 .board-design{
   background-color: white;
   text-align: center;
+  @include box-format();
+
 
   img{
     margin: 2%;
@@ -175,6 +202,10 @@ img{
 }
 
 .contact-us{
+  @include box-format();
+  background-color: white;
+  margin-bottom: 5%;
+
   // background-color: gray;
 }
 

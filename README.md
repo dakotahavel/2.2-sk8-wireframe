@@ -7,3 +7,16 @@ The design comp is given below.
 
 ![Alt text](/images/powell_peralta-design-comp.jpg?raw=true "Sk8 Design Comp")
 
+
+## Built With
+
+* [jQuery](https://jquery.com/)
+* [Bootstrap](http://getbootstrap.com/)
+* [Sass](http://sass-lang.com/)
+
+
+## Author
+**Dakota Havel** - (https://github.com/dakotahavel) (https://dakotahavel.com)
+
+## License
+[MIT license](http://opensource.org/licenses/mit-license.php)
